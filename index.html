@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RUN FOR YOUR LIFE 2026</title>
+    <style>
+        /* Menghilangkan margin dan membuat frame memenuhi layar */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Mencegah scroll ganda */
+            background-color: #f4f7f9;
+        }
+        
+        /* Gaya untuk pembungkus Iframe */
+        .container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <iframe 
+            src="https://run4yourlife.github.io/registrasi/" 
+            allow="geolocation; microphone; camera; midi; encrypted-media;"
+            title="RUN FOR YOUR LIFE 2026">
+        </iframe>
+    </div>
+
+</body>
+</html>
